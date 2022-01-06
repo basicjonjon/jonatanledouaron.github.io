@@ -1,0 +1,7 @@
+note maj 
+
+24/11/2021
+.refonte graphique du site
+.ajout de la page d'acceuil
+.ajout du caroussel
+.ajout de lien sur les images du caroussel 
