@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+	/*la fonction qui permet le calcul de toute les variable et qui sera appeler plus tard dans un input*/
+	function calculate(){
+
+		/*les variables du prix*/
+     		var noke1= parseInt(document.getElementById("l1c2").value);
+			var noke2= parseInt(document.getElementById("l2c2").value);
+			var noke3= parseInt(document.getElementById("l3c2").value);
+
+		/*les variable de la quantiter*/	
+			var noke12= parseInt(document.getElementById("l1c3").value);
+			var noke22= parseInt(document.getElementById("l2c3").value);
+			var noke32= parseInt(document.getElementById("l3c3").value);
+
+		/*le produit du prix et de la quantiter qui va s'afficher dans la colone 4*/
+			document.getElementById("l1c4").value=(noke1*noke12);
+			document.getElementById("l2c4").value=(noke2*noke22);
+			document.getElementById("l3c4").value=(noke3*noke32);
+
+		/*le calcul de la somme total a payer qui vas s'afficher dans la zone de text totoXD*/
+			document.getElementById("totoXD").value=(noke1*noke12+noke2*noke22+noke3*noke32 + "$");
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<h1>facture</h1>
+	<table>
+		<!--ligne 1 du tableau-->
+		<tr class="entete">
+			<td class="entete">produit</td>
+			<td class="entete">prix</td>
+			<td class="entete">qantité</td>
+			<td class="entete">total</td>
+		</tr>
+
+		<!-- ligne 2 -->
+		<tr>
+			<td><input id="l1c1" type="text" name="l1c1" class="zonetexts"></td>
+			<td><input id="l1c2" type="text" name="l1c2" class="zonetexts"></td>
+			<td><input id="l1c3" type="text" name="l1c3" class="zonetexts"></td>
+			<td><input id="l1c4" type="text" name="l1c4" class="zonetexts" disabled></td>
+		</tr>
+
+		<!-- ligne 3-->
+		<tr>
+			<td><input id="l2c1" type="text" name="l2c1" class="zonetexts1"></td>
+			<td><input id="l2c2" type="text" name="l2c2" class="zonetexts1"></td>
+			<td><input id="l2c3" type="text" name="l2c3" class="zonetexts1"></td>
+			<td><input id="l2c4" type="text" name="l2c4" class="zonetexts1"disabled></td>
+		</tr>
+
+		<!-- ligne 4 -->
+		<tr>
+			<td><input id="l3c1" type="text" name="l3c1" class="zonetexts1"></td>
+			<td><input id="l3c2" type="text" name="l3c2" class="zonetexts1"></td>
+			<td><input id="l3c3" type="text" name="l3c3" class="zonetexts1"></td>
+			<td><input id="l3c4" type="text" name="l3c4" class="zonetexts1" disabled></td>
+		</tr>
+	</table></center>
+	<!--la balise avec l'instruction "onclick" qui permet d'activer l'action "calculate" quand l'utilisateur presse le bouton -->
+	<center><button onclick="calculate()" value="total" class="button">total</button></center>
+	<br>
+	<!-- la zone de text qui vas recevoir le total du prix -->
+	<center><input id="totoXD" type="text" name="totoXD" class="zonetexts1"></center>
+</body>
+</html>

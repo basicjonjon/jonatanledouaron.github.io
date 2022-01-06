@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function couleur(){
+		var couleur = document.getElementById("t1").value
+		if (couleur == "rouge") {
+			document.body.style.background="red"
+			document.getElementById("t2").value=(" ")
+		}else if (couleur == "bleu") {
+			document.body.style.background="blue"
+			document.getElementById("t2").value=(" ")
+		}else if (couleur == "vert") {
+			document.body.style.background="green"
+			document.getElementById("t2").value=(" ")
+		}else if (couleur == "violet") {
+			document.body.style.background="#20103A"
+			document.getElementById("t2").value=(" ")
+		}else{
+			document.getElementById("t2").value=("couleur inconnue")
+		}
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<h1>changez la couleur du fond</h1>
+		<input type="text" id="t1" class="zonetext" placeholder="entrez un texte" ><br>
+		<input type="text" id="t2" class="zonetext2" disabled=""><br>
+		<input onclick="couleur()" type="button" value="cliquez ici" class="button">
+		<p>couleur disponible:<br>
+			-rouge<br>
+			-vert<br>
+			-bleu<br>
+			-violet</p>
+	</center>
+
+</body>
+</html>

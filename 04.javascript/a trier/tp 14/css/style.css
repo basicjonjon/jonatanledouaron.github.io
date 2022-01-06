@@ -1,0 +1,68 @@
+body{
+	font-family: verdana ;
+	margin: 0px;
+	padding: 0px;
+	background-color: #20103A;
+	color: white;
+}
+table{
+	border: 3px solid rgb(106, 52, 195);
+	width: 300px;
+	text-align: center;
+	border-radius: 20px;
+	padding: px;
+	margin-top: 100px;
+}
+tr td{
+	border: 3px solid rgb(106, 52, 195);
+	border-radius:200px ;
+}
+
+.zonetext{
+	margin-top: 10px;
+	width: 400px;
+	height: 50px;
+	background-color: #20103A;
+	border: 3px solid white;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+.zonetexts{
+	margin-top: 300px;
+	width: 400px;
+	height: 50px;
+	background-color: #20103A;
+	border: 3px solid white;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+.zonetexts1{
+	margin-top: 10px;
+	width: 400px;
+	height: 50px;
+	background-color: #20103A;
+	border: 3px solid white;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+.button{
+	margin-top: 20px;
+	background-color:#20103A; 
+	border: 3px solid rgb(106, 52, 195);
+	color: rgb(106, 52, 195);
+	font-family: verdana; 
+	font-size: 2rem;
+	width:300px;
+	height: 70px;
+	border-radius: 15px
+}
+.button:hover{
+	width: 310px;
+	height: 80px;
+}

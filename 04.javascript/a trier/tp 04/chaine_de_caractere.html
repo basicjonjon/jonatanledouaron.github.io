@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function chaines(){
+		var chaine = document.getElementById("t1").value;
+		document.getElementById("t2").value=(chaine.substr(0,1));
+		console.log(chaine.substr(0,1));
+		document.getElementById("t3").value=(chaine.substr(1,0));
+		console.log(chaine.substr(1,0));
+		document.getElementById("t4").value=(chaine.substr(-1,1));
+		console.log(chaine.substr(-1,1));
+		document.getElementById("t5").value=(chaine.substr(1,-1));
+		console.log(chaine.substr(1,-1));
+		document.getElementById("t6").value=(chaine.substr(-3));
+		console.log(chaine.substr(-3));
+		document.getElementById("t7").value=(chaine.substr(1));
+		console.log(chaine.substr(1));
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<h1>chaine de caractère</h1>
+		<input type="text" id="t1" class="zonetext" placeholder="entrez un texte" ><br>
+		<input type="text" id="t2" class="zonetext2" disabled=""><br>
+		<input type="text" id="t3" class="zonetext2" disabled=""><br>
+		<input type="text" id="t4" class="zonetext2" disabled=""><br>
+		<input type="text" id="t5" class="zonetext2" disabled=""><br>
+		<input type="text" id="t6" class="zonetext2" disabled=""><br>
+		<input type="text" id="t7" class="zonetext2" disabled=""><br>
+		<input type="button" class="button" value="cliquez ici!!!" onclick="chaines()"><br>
+		<p class="text">conseille: regarder dans la console</p>
+	</center>
+</body>
+</html>

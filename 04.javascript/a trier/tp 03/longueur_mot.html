@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+		<script type="text/javascript">
+			function mots(){
+				var mot = document.getElementById("t1").value;
+				var long = (mot.length)
+				var longu = long-1
+				document.getElementById("t2").value=("le mot saisie est : " + mot);
+				document.getElementById("t3").value=("sa longueur est de : " + long + " caractères");
+				document.getElementById("t4").value=("le premier caractères de ce mot est : " + mot.substr(0,1));
+				document.getElementById("t5").value=("le dernier caractères de ce mot est : " + mot.substr(longu,1));
+			}
+
+	</script>
+</head>
+
+<body>
+	<center>
+		<input type="text" id="t1" class="zonetext" placeholder="entrez un texte" ><br>
+		<input type="text" id="t2" class="zonetext2" disabled=""><br>
+		<input type="text" id="t3" class="zonetext2" disabled=""><br>
+		<input type="text" id="t4" class="zonetext2" disabled=""><br>
+		<input type="text" id="t5" class="zonetext2" disabled=""><br>
+		<input type="button" class="button" value="cliquez ici!!!" onclick="mots()">
+	</center>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+	font-family: verdana ;
+	margin: 0px;
+	padding: 0px;
+	background-color: #20103A;
+	color: white;
+}
+.zonetext{
+	margin-top: 150px;
+	width: 400px;
+	height: 50px;
+	background-color: #20103A;
+	border: 3px solid white;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+.zonetext2{
+	margin-top:20px;
+	width: 1000px;
+	height: 50px;
+	background-color: #20103A;
+	border: 0px solid white;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+.button{
+	text-align: center;
+	margin-top: 40px;
+	background-color:#20103A; 
+	border: 3px solid rgb(106, 52, 195);
+	color: rgb(106, 52, 195);
+	font-family: verdana; 
+	font-size: 2rem;
+	padding-left:300px;
+	padding-right:300px;
+	height: 70px;
+	border-radius: 15px
+}
+.button:hover{
+	border: 3px solid white;
+	height: 80px;
+}

@@ -1,0 +1,214 @@
+body{
+	color: white;
+	font-family: verdana;
+}
+h3{
+	margin: 10;
+	margin-left: 10px;
+}
+
+.download{
+	color: white;
+	float: right;
+	text-decoration: none;
+	margin-right: 10%;
+	margin-top: 20px;
+	border: solid 3px #f00;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: black;
+	border-radius: 10px;
+	font-family: verdana;
+	padding-bottom: 5px ;
+	padding-top	:5px ;
+	padding-left:40px ;
+	padding-right:40px ;
+}
+.download:hover{
+	padding-bottom: 10px ;
+	padding-top	:10px ;
+	padding-left:45px ;
+	padding-right:45px ;
+	box-shadow:
+    0 0 8px #f00,
+    inset 0 0 8px #f00,
+    0 0 16px #f00,
+    inset 0 0 16px #f00,
+    0 0 32px #f00,
+    inset 0 0 32px #f00;
+}
+.page{
+	width: 780px;
+	height: 1200px;
+	border: solid 5px;
+	border-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+	box-shadow: 5px 5px grey;
+}
+
+
+.entete{
+	border: solid 0px;
+	height: 220px;
+	border-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	
+}
+.info{
+	border: solid 0px;
+	border-color: white;
+	width: 300px;
+	height: 210px;
+	border-radius: 10px;
+}
+.photo{
+	border: solid 0px;
+	border-color: white;
+	float: right;
+	width: 270px;
+	height: 140px;
+	margin-top: -200px;
+	border-radius: 10px;
+}
+
+.formation{
+	border: solid 0px;
+	border-color: white;
+	height: 240px;
+	margin-top: 10px;
+	border-radius: 10px ;
+}
+.date{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 200px;
+	height: 160px;
+	margin: 10px;
+}
+.lieux{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 525px;
+	height: 160px;
+	margin: 10px;
+	margin-top: -180px;
+	float: right;
+}
+
+.experience{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	height: 210px;
+	margin-top: 10px;
+}
+.date2{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 200px;
+	height: 130px;
+	margin: 10px;
+}
+.professionel{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 525px;
+	height: 130px;
+	margin: 10px;
+	margin-top: -150px;
+	float: right;
+}
+
+.competence{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	height: 270px;
+	40px;
+	margin-top: 10px;
+}
+.som{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 190px;
+	height: 190px;
+	margin: 10px;
+}
+.maitrise{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 525px;
+	height: 190px;
+	margin: 10px;
+	margin-top: -210px;
+	float: right;
+}
+
+.autre{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	height: 210px;
+	margin-top: 10px;
+}
+.autre2{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 200px;
+	height: 130px;
+	margin: 10px;
+}
+.centreinteret{
+	border: solid 0px;
+	border-color: white;
+	border-radius: 10px ;
+	width: 525px;
+	height: 130px;
+	margin: 10px;
+	margin-top: -150px;
+	float: right;
+}
+
+span.s1{
+	color: red;
+}
+
+.p1{
+	margin: auto;
+	padding: 10px;
+}
+.p2{
+	margin-top: -10px;
+	padding: 30px;
+	padding: 10px;
+}
+.p3{
+	margin-top: -30px;
+	padding: 10px;
+}
+.p4{
+	margin-top:-10px ;
+}
+.P5{
+	margin: auto;
+	padding-left: 10px;
+}
+.p6{
+	margin-top: 37px;
+}
+.P7{
+	margin-top: 40px;
+}
+.p8{
+	text-align: center;
+}

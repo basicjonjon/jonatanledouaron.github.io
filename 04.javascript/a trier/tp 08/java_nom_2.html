@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function noms(){
+		var nom =document.getElementById("t1").value;
+	    document.getElementById("t2").value=("bonjour " + nom);
+	    }
+	</script>
+</head>
+<body>
+	<center>
+	<h1>nom 2 javascript</h1>
+	<input type="text" id="t1" class="zonetext" placeholder="entrez votre nom ou prenom" ><br>
+	<input type="text" id="t2" class="zonetext2" disabled=""><br>
+	<input type="button" class="button" value="cliquez ici!!!" onclick="noms()"><br>
+	</center>
+</body>
+</html>

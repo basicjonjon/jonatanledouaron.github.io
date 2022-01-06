@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function acces(){
+			var i=0
+			do{ 
+				
+				i=i+1
+				var username=prompt("Identifiant :");
+				var password=prompt("Mot de passe :");
+					if (username==="Admin_GSB" && password==="admin"){
+						alert("conexion reussi");
+					}else{
+						alert("Identifiant ou mot de passe incorrects");
+					}
+					if(i==3)
+					alert("compte bloquée");
+				 }while(i<3)
+				
+			}
+	</script>
+</head>
+<body>
+	<center><button id="acces" onclick="acces()">test</button></center>
+
+</body>
+</html>

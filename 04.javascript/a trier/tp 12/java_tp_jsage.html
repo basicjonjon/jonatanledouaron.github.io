@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function verif() {
+			var age 
+		age = document.getElementById("t1").value;
+		if (age<1 || age>120 )
+			document.getElementById("t2").value = ("age invalide");
+		else 
+			document.getElementById("t2").value = ("age valide")
+		}
+	</script>
+	<center>
+	<h1>age valide/invalide</h1>
+	<input type="text" id="t1" class="zonetexts" placeholder="entrez votre age"><br>
+	<input type="text" id="t2" disabled class="zonetexts1"><br>
+	<button onclick="verif()" class="button">test</button>
+	</center>
+</body>
+</html>

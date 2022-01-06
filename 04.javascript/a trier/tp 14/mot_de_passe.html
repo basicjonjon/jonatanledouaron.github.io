@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function acces(){
+			var username
+			username=document.getElementById("t1").value;;
+			var password
+			password=document.getElementById("t2").value;;
+			if (username==="Admin_GSB" && password==="admin"){
+				alert("conexion reussi");
+			}else{
+				alert("Identifiant ou mot de passe incorrects")
+			}
+}
+	</script>
+</head>
+<body>
+	<center>
+		<h1>mot de passe</h1>
+		<input type="text" id="t1" class="zonetexts" placeholder="username"><br>
+		<input type="text" id="t2" class="zonetexts1" placeholder="password"><br>
+		<button id="acces" onclick="acces()" class="button">connexion</button><br>
+		<p>username= Admin_GSB / password = admin </p>
+	</center>
+
+</body>
+</html>

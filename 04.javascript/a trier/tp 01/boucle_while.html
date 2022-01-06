@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function access(){
+			var i=0;
+			var result =0;
+			while(i<=4){
+				var x= prompt ("donner une valeur") 
+				result= parseInt(result)+parseInt(x);
+				i=i+1;
+				document.getElementById("z1").value=(result);
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<center>
+		<button onclick="access()" class="button">cliquez ici</button><br>
+		<input type="text" id="z1" class="zonetext" disabled="" placeholder="resultat">
+		
+	</center>
+
+</body>
+</html>

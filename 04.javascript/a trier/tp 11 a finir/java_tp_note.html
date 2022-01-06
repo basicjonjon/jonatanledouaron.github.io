@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title></title>
+
+	<script type="text/javascript">
+	function moyenne(){
+		var note1;
+		note1 = parseInt(document.getElementById("n1").value);
+		var note2;
+		note2 = parseInt(document.getElementById("n2").value);
+		var note3;
+		note3 = parseInt(document.getElementById("n3").value);
+		
+		var coeff1;
+		coeff1 = parseInt(document.getElementById("c1").value);
+		var coeff2;
+		coeff2 = parseInt(document.getElementById("c2").value);
+		var coeff3; 
+		coeff3 = parseInt(document.getElementById("c3").value);
+		var coeff = coeff1+coeff2+coeff3;
+		var somme = note1*coeff1+note2*coeff2+note3*coeff3;
+		var moyenne = somme/coeff;
+		if (moyenne>=10){
+			document.getElementById("r1").value=(moyenne);
+		}
+	}
+</script>
+
+</head>
+<body>
+<center>
+	<h1>calcul moyenne</h1>
+	<input type="text" disabled class="zonetexts" id="r1"><br>
+	<u class="text1">note 1:</u><input type="text" class="zonetexts1"  id="n1">
+	<u class="text1">coefficient 1:</u><input type="text" class="zonetexts1"  id="c1"><br>
+
+	<u class="text1">note 2:</u><input type="text" class="zonetexts1" id="n2">
+	<u class="text1">coefficient 2:</u><input type="text" class="zonetexts1"  id="c2"><br>
+
+	<u class="text1">note 3:</u><input type="text" class="zonetexts1"  id="n3">
+	<u class="text1">coefficient 3:</u><input type="text" class="zonetexts1"  id="c3"><br>
+
+	<input type="text" class="zonetexts1"  id="r2"><br>
+
+	<button onclick="moyenne()" class="button">calculez</button>
+</center>
+</body>
+</html>

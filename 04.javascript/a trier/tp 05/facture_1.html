@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title>facture 1</title>
+	<script type="text/javascript">
+		function calculate(){
+			var x= parseInt(document.getElementById("first").value);
+			var y= parseInt(document.getElementById("second").value);
+			document.getElementById("answer").value=(x+y);
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<h1 class="title">facture 1</h1>
+	</center>
+	
+<form>
+	<center>
+		<input id="first" type="text" name="first" class="zonetext" placeholder="premier valeur">
+		<input id="second" type="text" name="second" class="zonetext" placeholder="deuxième valeur"><br>
+		<input id="answer" type="text" name="answer" class="zonetext2" placeholder="resultat"><br>
+		<input onclick="calculate()" type="button" value="Addition" class="button">
+	</center>
+</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<script type="text/javascript">
+		function chaine() {
+			var mot;
+			mot = document.getElementById("t1").value;
+			document.getElementById("t2").value=(mot.toUpperCase());
+			document.getElementById("t3").value=(mot.toLowerCase());
+			document.getElementById("t4").value=("la chaine contient "+ mot.length + " caractere");
+			
+		}
+		
+
+	</script>
+	<center>
+		<h1>minuscule/majuscule</h1>
+		<input type="text" id="t1" class="zonetexts" entrez un mot><br>
+		<input type="text" id="t2" disabled class="zonetexts1"><br>
+		<input type="text" id="t3" disabled class="zonetexts1"><br>
+		<input type="text" id="t4" disabled class="zonetexts1"><br>
+		<button onclick="chaine()" class="button">cliquez</button>
+	</center>
+</body>
+</html>

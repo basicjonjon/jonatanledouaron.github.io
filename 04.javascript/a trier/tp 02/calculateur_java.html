@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>calculateur java</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function somme(){
+			var n1=document.getElementById("t1").value
+			var n2=document.getElementById("t2").value
+			var s=parseInt(n1)+parseInt(n2)			
+			var n3 =document.getElementById("t3").value
+			if (n3=="NaN") {
+				var s="0"
+			}else{
+				var s=parseInt(n1)+parseInt(n2)
+			}
+			document.getElementById("t3").value=(s)
+
+		}
+	</script>
+		<form name="f1">
+			<center>
+				<input type="text" id="t1" class="zonetext" placeholder="valeur 1">
+				<input type="text" id="t2" class="zonetext" placeholder="valeur 2"><br>
+				<input type="text" id="t3" class="zonetext2" placeholder="resultat" disabled="" value="0"><br>
+				<br>
+				<a name="b1" onclick="somme()" class="button">calcul</a>
+	</center>
+
+</form>
+</body>
+</html>
