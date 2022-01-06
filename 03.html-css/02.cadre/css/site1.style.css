@@ -1,0 +1,40 @@
+body {
+font-family:verdana ;
+color: white;
+background-image:url(site1.backgroundindex.png);
+}
+img{border-radius: 30px;}     
+
+.bouton {
+  display: flex;
+  background-color:#7A2715;
+  border: 10px;
+  color: white; 
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;                      
+  font-size: 150%;
+  cursor: pointer;
+  border-radius: 1000px;
+  border-color: white;
+}
+
+.bouton:hover {
+  background-color: #000000;
+  color: white;
+  }
+
+  p{text-align: center;}
+
+  h1{text-align: center;color: red; text-decoration: underline red;}
+  h2{text-align: center;color: red; text-decoration: underline red;}
+
+  .background-image{
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-size: auto ;
+    
+   
+  }

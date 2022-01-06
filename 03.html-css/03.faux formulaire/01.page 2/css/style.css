@@ -1,0 +1,13 @@
+body{
+  font-size: 18px;
+  font-family: verdana;
+  background-color:#20103A;
+  color: white;
+}
+h1{
+  margin: auto;
+}
+div{
+  border: 0px solid darkred;
+  margin-top: 18%;
+}

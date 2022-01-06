@@ -1,0 +1,73 @@
+body{
+  font-size: 18px;
+  font-family: verdana;
+  background-color:#20103A;
+}
+
+a{
+  color: hotpink;
+}
+
+h1{
+  font: arial;
+  color: blue;
+}
+
+u{
+  color: yellow;
+}
+
+.s1{
+  color: blue;
+  font-size: large;
+} 
+
+.s2{
+  color: black;
+    font-size: large;
+  }
+
+h2{
+  color: red;
+}
+
+ul{
+  color: hotpink;
+}
+
+
+p{
+  font-size: small;
+  color: red;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #ff0000;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bouton {
+  background-color:#20103A;
+  border: solid 3px rgb(106, 52, 195);
+  color: white ; 
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;                      
+  font-size: 150%;
+  cursor: pointer;
+  border-radius: 20px;
+  }
+  .bouton:hover {
+  background-color:rgb(106, 52, 195);
+  color: white;
+  }
+
+  .bouton:visited {
+  background-color:#20103A;
+  color:white;
+  }

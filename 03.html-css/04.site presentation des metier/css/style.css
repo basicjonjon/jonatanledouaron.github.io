@@ -1,0 +1,44 @@
+body {
+  font-size: 18px;
+  font-family: verdana;
+  background-color:#20103A;
+}
+img{border-radius: 30px;}     
+
+.bouton {
+  display: flex;
+  background-color:#20103A;
+  border: solid 3px rgb(106, 52, 195);
+  color: white; 
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;                      
+  font-size: 150%;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.bouton:hover {
+  background-color: rgb(106, 52, 195);
+  color: white;
+}
+
+p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: rgb(106, 52, 195);
+}
+h2{
+  text-align: center;
+  color: rgb(106, 52, 195); 
+}
+p{
+  color: rgb(106, 52, 195);
+}
+
+
+  
